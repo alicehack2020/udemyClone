@@ -7,7 +7,7 @@ import earth_glob from "../../img/earth-globe.png"
 
 const NavBar = () => {
   return (
-    <div className='navbar_main flex'>
+    <div className='navbar_main flex '>
        
        <div className='nav_left flex'>
             <img src={logo} alt="" />

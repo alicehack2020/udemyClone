@@ -7,6 +7,10 @@
     justify-content: space-around;
     padding: 10px;
 }
+.navbar_main p:hover{
+ cursor: pointer;
+ color: blueviolet;
+}
 .navbar_main div{
     align-items: center;
 }
@@ -35,7 +39,7 @@
     width: 100px;
 }
 
-button{
+.login_btn,.Signup_btn{
     padding: 10px 20px;
     margin-left: 10px;
     border: 1px solid black;

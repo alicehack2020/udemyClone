@@ -1,0 +1,19 @@
+.broad_heading{
+    width: 100%;
+    padding-left: 20px;
+}
+.broad_course p{
+    font-size: medium;
+    font-weight: bold;
+    color: gray; 
+    padding: 10px;
+    padding-left: 20px;
+}
+.broad_course p:hover{
+    color: black; 
+    cursor: pointer;
+}
+.broad_heading p{
+    margin: 0;
+    padding: 0;
+}
