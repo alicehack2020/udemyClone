@@ -4,6 +4,8 @@
     margin-right: 20px;
     border: 1px solid gray;
     margin-top: 10px;
+    display: grid;
+    align-items: center;
 }
 
 .CourseSection h1,p,button{
@@ -35,10 +37,22 @@
  .pricesection{
      display: flex;
      align-items: center;
+     align-content: center;
  }
  .grid_CourseSection p,h1,h3{
     padding-left: 10px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
  }
+ 
  .stardiv{
-     
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-left: 10px;
+ }
+ .stardiv img{
+    width: 10px;
+    align-items: center;
  }

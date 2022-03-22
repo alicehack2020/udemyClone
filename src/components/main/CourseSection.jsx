@@ -2,9 +2,13 @@ import React, { useEffect, useState } from 'react'
 import "./CourseSection.css"
 import star from "../../img/star.png"
 
-const CourseSection = () => {
+const CourseSection = (probs) => {
   
   const [list,setlist]=useState([])
+  let courseName=probs.courseName;
+
+console.log(courseName);
+
 
   useEffect(()=>{
     fetch(`http://localhost:3004/courseList`)
@@ -12,7 +16,19 @@ const CourseSection = () => {
     .then(data=>setlist(data))
   },[])
   
+
+  // useEffect(()=>{
+  //   if(courseName!=="test")
+  //   {
+  //     fetch(`http://localhost:3004/courseList?_type=${courseName}`)
+  //     .then(res=>res.json())
+  //     .then(data=>setlist(data))
+  //     console.log(courseName);  
+  //   }
+  // },[courseName])
   
+
+
   return (
     <div className='CourseSection'>
         <div>
