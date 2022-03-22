@@ -1,0 +1,27 @@
+.hero_main{
+    position: relative; 
+    width: 100%; /* for IE 6 */
+}
+
+.hero_div{
+    position: absolute; 
+    top: 100px; 
+    left: 100px; 
+    width: 25rem; 
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.hero_div{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(187, 180, 180, 0.072),
+    0 41.8px 33.4px rgba(207, 197, 197, 0.086),
+    0 0 0.5px rgba(236, 231, 231, 0.1)
+}
+.banner{
+    width: 100%;
+}

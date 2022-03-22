@@ -1,0 +1,54 @@
+.flex{
+    display: flex;
+}
+.navbar_main{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.navbar_main div{
+    align-items: center;
+}
+.nav_main{
+    border: 1px solid black;
+    padding: 10px;
+    width: 20rem;
+    border-radius: 20px;
+}
+.navbar_main input{
+    width: 20rem;
+    border: none;
+    padding-left: 10px;
+}
+
+.navbar_main input:focus{
+    width: 20rem; 
+    padding-left: 10px;
+    outline: none;
+     
+}
+.nav_main img{
+    width: 20px;
+}
+.nav_left img{
+    width: 100px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.login_btn{
+    background-color: white;
+}
+
+.Signup_btn{
+    color: white;
+    background-color: black;
+}
+.teach p{
+    padding-left: 20px;
+}   
+

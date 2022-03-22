@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.start{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px; 
+ }
+
+ .start h3,p{
+     padding-left: 10px;
+ }
