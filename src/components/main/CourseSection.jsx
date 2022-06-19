@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import "./CourseSection.css"
 import star from "../../img/star.png"
 
@@ -6,15 +6,14 @@ const CourseSection = (probs) => {
   
   const [list,setlist]=useState([])
   let courseName=probs.courseName;
-
-console.log(courseName);
-
-
-  useEffect(()=>{
-    fetch(`http://localhost:3004/courseList`)
-    .then(res=>res.json())
-    .then(data=>setlist(data))
-  },[])
+   
+ 
+  // useEffect(()=>{
+  //   fetch(`http://localhost:3004/courseList`)
+  //   // fetch(`https://stalwart-taffy-c07379.netlify.app/courseList`)
+  //   .then(res=>res.json())
+  //   .then(data=>setlist(data))
+  // },[])
   
 
   // useEffect(()=>{
